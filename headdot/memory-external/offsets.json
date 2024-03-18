@@ -1,0 +1,13 @@
+{
+    "dwEntityList": 25963864,
+    "dwLocalPlayerController": 26289528,
+    "dwViewMatrix": 26362272,
+    "m_flFlashOverlayAlpha": 5312,
+    "m_hPlayerPawn": 2020,
+    "m_iHealth": 820,
+    "m_iTeamNum": 971,
+    "m_pGameSceneNode": 792,
+    "m_szName": 3104,
+    "m_vOldOrigin": 4732,
+    "m_vecAbsOrigin": 200
+}

@@ -1,0 +1,155 @@
+﻿  auto_updater.cpp
+  config.cpp
+  main.cpp
+  memory.cpp
+  reader.cpp
+D:\source\c++\headdot\memory-external\memory\memory.hpp(97,78): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+  (компиляция исходного файла "memory/memory.cpp")
+  
+D:\source\c++\headdot\memory-external\memory\handle_hijack.hpp(197,12): warning C4244: *=: преобразование "double" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "memory/memory.cpp")
+  
+D:\source\c++\headdot\memory-external\memory\handle_hijack.hpp(248,29): warning C4312: приведение типов: преобразование из "ULONG" в "DWORD *" большего размера
+  (компиляция исходного файла "memory/memory.cpp")
+  
+D:\source\c++\headdot\memory-external\memory\memory.hpp(97,78): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+  (компиляция исходного файла "hacks/reader.cpp")
+  
+D:\source\c++\headdot\memory-external\memory\memory.hpp(97,78): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\classes\render.hpp(23,50): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\classes\auto_updater.cpp(180,32): warning C4101: e: неиспользованная локальная переменная
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(46,6): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(45,6): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(44,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(43,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(53,17): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(52,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(78,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(85,13): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(84,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(83,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(98,82): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(98,43): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(97,86): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(97,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(111,7): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(110,7): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(109,17): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(108,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(121,13): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(119,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(118,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(130,13): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(128,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(127,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(141,16): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(140,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(156,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(155,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(169,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(168,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(184,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(183,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(193,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(192,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(202,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(201,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(213,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(212,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(226,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(225,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(62,13): warning C4101: list_entry: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\classes\config.cpp(16,32): warning C4101: e: неиспользованная локальная переменная
+D:\source\c++\headdot\memory-external\main.cpp(92,17): warning C4312: reinterpret_cast: преобразование из "LONG" в "HINSTANCE" большего размера
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+D:\source\c++\headdot\memory-external\classes\vector.hpp(19): warning C4172: возвращение адреса локальной или временной переменной
+  All 1769 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  memory-external.vcxproj -> D:\source\c++\headdot\x64\Unknowncheats\cs2-external-esp.exe

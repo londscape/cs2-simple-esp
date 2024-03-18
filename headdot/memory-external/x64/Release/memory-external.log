@@ -1,0 +1,29 @@
+﻿  main.cpp
+D:\source\c++\headdot\memory-external\memory\memory.hpp(97,78): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(41,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(45,79): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(45,72): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(45,68): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(45,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\hacks\hack.hpp(31,13): warning C4101: list_entry: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+  
+D:\source\c++\headdot\memory-external\main.cpp(100,20): warning C4312: reinterpret_cast: преобразование из "LONG" в "HINSTANCE" большего размера
+  Создание кода
+  0 of 1476 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  memory-external.vcxproj -> D:\source\c++\headdot\x64\Release\encode.exe

@@ -1,0 +1,89 @@
+#pragma once
+#ifndef _VECTOR_ESP_
+#define _VECTOR_ESP_
+
+#include <cmath>
+#include <numbers>
+
+struct Vector3
+{
+    // Конструктор
+    constexpr Vector3(
+        const float x = 0.f,
+        const float y = 0.f,
+        const float z = 0.f) noexcept :
+        x(x), y(y), z(z) { }
+
+    // Перегрузки операторов
+    constexpr Vector3 operator-(const Vector3& other) const noexcept
+    {
+        return { x - other.x, y - other.y, z - other.z };
+    }
+
+    constexpr Vector3 operator+(const Vector3& other) const noexcept
+    {
+        return { x + other.x, y + other.y, z + other.z };
+    }
+
+    constexpr Vector3 operator/(const float factor) const noexcept
+    {
+        return { x / factor, y / factor, z / factor };
+    }
+
+    constexpr Vector3 operator*(const float factor) const noexcept
+    {
+        return { x * factor, y * factor, z * factor };
+    }
+
+    // Операторы сравнения
+    constexpr bool operator>(const Vector3& other) const noexcept {
+        return x > other.x && y > other.y && z > other.z;
+    }
+
+    constexpr bool operator>=(const Vector3& other) const noexcept {
+        return x >= other.x && y >= other.y && z >= other.z;
+    }
+
+    constexpr bool operator<(const Vector3& other) const noexcept {
+        return x < other.x && y < other.y && z < other.z;
+    }
+
+    constexpr bool operator<=(const Vector3& other) const noexcept {
+        return x <= other.x && y <= other.y && z <= other.z;
+    }
+
+    // Утилиты
+    constexpr const Vector3& ToAngle() const noexcept
+    {
+        return Vector3{
+            std::atan2(-z, std::hypot(x, y)) * (180.0f / std::numbers::pi_v<float>),
+            std::atan2(y, x) * (180.0f / std::numbers::pi_v<float>),
+            0.0f };
+    }
+
+    float length() const {
+        return std::sqrt(x * x + y * y + z * z);
+    }
+
+    float length2d() const {
+        return std::hypot(x, y);
+    }
+
+    constexpr bool IsZero() const noexcept
+    {
+        return x == 0.f && y == 0.f && z == 0.f;
+    }
+
+    float calculate_distance(const Vector3& point) const {
+        float dx = point.x - x;
+        float dy = point.y - y;
+        float dz = point.z - z;
+
+        return std::sqrt(dx * dx + dy * dy + dz * dz);
+    }
+
+    // Данные структуры
+    float x, y, z;
+};
+
+#endif
